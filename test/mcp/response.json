@@ -1,0 +1,120 @@
+{
+  "vuser": {
+    "paymentInstrument": [
+      {
+        "id": "fc6f3863-f474-904c-ee98-1f26e97f7201",
+        "accepted": true,
+        "lastFourDigits": "0094",
+        "binSixDigits": null,
+        "accountNumber": null,
+        "paymentType": {
+          "cardBrand": "VISA",
+          "cardType": "DEBIT"
+        },
+        "billingAddress": null,
+        "billingAddressId": "ef536e15-e2e2-b4c4-7835-169f8fa6c601",
+        "verificationStatus": "VERIFIED",
+        "expired": false,
+        "cardArts": {
+          "cardArt": [
+            {
+              "imageUrl": null,
+              "baseImageFileName": "https://assets.vims.visa.com/vims/cardart/0c1259341935ef25be344c5bb673cd01_imageA@2x.png",
+              "height": 210,
+              "width": 334,
+              "orientation": null,
+              "cardBrand": null
+            }
+          ]
+        },
+        "avsResponseCode": null,
+        "issuerBid": "10020672",
+        "domesticOnly": false,
+        "combinationCard": "N",
+        "countryOfIssuance": "484",
+        "comboCardSet": false,
+        "accountType": "DEBIT_CARD",
+        "issuerName": null,
+        "isBiometricsEnabled": false,
+        "isIssuerManaged": false,
+        "fidoRegisteredDevices": null,
+        "nickName": null,
+        "nameOnCard": "J***** C***** J***** J*****",
+        "expirationDate": {
+          "month": "06",
+          "year": "2026"
+        },
+        "cvv": null,
+        "prepaidIdentifier": null,
+        "productTypeCode": "D",
+        "sequencenumber": null,
+        "nfcIndicator": null,
+        "cardVerificationStatus": "VERIFIED",
+        "cvv2VerificationStatus": "VERIFIED",
+        "lastVerificationDate": null,
+        "verificationServiceProvider": null,
+        "federatedPaymentInstrumentId": null,
+        "cardArtWidth": null,
+        "cardArtHeight": null,
+        "cardArtFileName": null,
+        "active": true,
+        "vPanEnrollmentId": "6d3de7a0eaf8d43d2ab414a191d5d001",
+        "linkedTimestamp": null,
+        "lastUsed": true,
+        "default": true
+      }
+    ],
+    "addresses": [
+      {
+        "id": "ef536e15-e2e2-b4c4-7835-169f8fa6c601",
+        "accepted": true,
+        "verificationStatus": "NOT_VERIFIED",
+        "nickName": null,
+        "personName": "J***** C***** J***** J*****",
+        "line1": "Vio*****",
+        "line2": "Jar*****",
+        "line3": "Vio*****",
+        "city": "*****",
+        "stateProvinceCode": "Mexico",
+        "postalCode": "*****",
+        "countryCode": "MX",
+        "streetName": "Vio*****",
+        "streetNumber": "5",
+        "additionalLocation": null,
+        "neighborhood": "Jar*****",
+        "county": "*****",
+        "pointOfReference": "Vio*****",
+        "phone": "********9908",
+        "phoneNumberCountryCode": "52",
+        "phoneNumberCountryAlpha2Code": "MX",
+        "addressVerificationStatusOverride": null,
+        "disableNotification": null,
+        "addressLine1raw": "Vio*****",
+        "default": null
+      }
+    ],
+    "firstName": "J*****",
+    "middleName": null,
+    "suffixName": null,
+    "lastName": "J*****",
+    "countryCode": "MX",
+    "languageCode": "es-MX",
+    "defaultTimezone": "PST",
+    "role": null,
+    "defaultShippingAddressId": null,
+    "defaultPaymentInstrumentId": "fc6f3863-f474-904c-ee98-1f26e97f7201",
+    "userStatusReasonCode": "100",
+    "streamLineEnrollment": null,
+    "enrollmentIndicator": null,
+    "userName": "jcjiron4@gmail.com",
+    "phoneNumber": null,
+    "createdDate": 1743639212548,
+    "deactivatedDate": null,
+    "id": "4fb7002c-51a8-4e25-bdc4-11b62420d901",
+    "emailAddress": "jcj**@gmail.com",
+    "isActiveEmail": null,
+    "taxId": null,
+    "staySignedInEnabled": false
+  },
+  "responseStatus": null
+}
