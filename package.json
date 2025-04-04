@@ -22,41 +22,7 @@
     "build": "rimraf ./dist && tsc",
     "start": "npm run build && node dist/src/app.js"
   },
-  "release": {
-    "branches": [
-      "main"
-    ],
-    "plugins": [
-      [
-        "@semantic-release/commit-analyzer"
-      ],
-      [
-        "@semantic-release/release-notes-generator"
-      ],
-      [
-        "@semantic-release/changelog"
-      ],
-      [
-        "@semantic-release/npm"
-      ],
-      [
-        "@semantic-release/git",
-        {
-          "assets": [
-            "package.json",
-            "CHANGELOG.md"
-          ],
-          "message": "chore(release): 🚀 ${nextRelease.version} [skip ci]\n\n${nextRelease.notes}"
-        }
-      ]
-    ]
-  },
   "devDependencies": {
-    "@semantic-release/changelog": "^6.0.3",
-    "@semantic-release/commit-analyzer": "^13.0.1",
-    "@semantic-release/git": "^10.0.1",
-    "@semantic-release/npm": "^12.0.1",
-    "@semantic-release/release-notes-generator": "^14.0.3",
     "@types/jest": "^29.5.14",
     "@types/node": "^22.13.17",
     "dotenv": "^16.4.7",
@@ -64,7 +30,6 @@
     "jest-mock-axios": "^4.8.0",
     "nodemon": "^3.1.9",
     "rimraf": "^6.0.1",
-    "semantic-release": "^24.2.3",
     "ts-jest": "^29.3.1",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.2"
